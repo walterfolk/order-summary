@@ -23,18 +23,19 @@ body {
     margin: 0 auto;
     max-width: 450px;
     padding: 1rem;
-    
 }
 
-
+.wrap {
+    border-radius: 1rem;
+    overflow: hidden;
+}
 .img img {
     display: block;
     max-width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    
 }
 
 .description {
-    border-radius: 0 0 1rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
